@@ -5,9 +5,6 @@ import Footer from './components/Footer';
 import Tasks from './components/Tasks';
 import AddTask from './components/AddTask';
 import About from './components/About';
-import { Client } from 'appwrite';
-const client = new Client();
-client.setProject('67caecfe003be1ab637a');
 
 const App = () => {
   const [showAddTask, setShowAddTask] = useState(false);
