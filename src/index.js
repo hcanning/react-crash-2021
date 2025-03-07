@@ -3,9 +3,6 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { Client } from 'appwrite';
-const client = new Client();
-client.setProject('67caecfe003be1ab637a');
 
 ReactDOM.render(
   <React.StrictMode>
